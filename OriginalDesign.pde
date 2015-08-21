@@ -1,9 +1,18 @@
-void setup()
-{
+int x=250;
+int y=250;
+
+void setup(){
+	size(512, 512);
 
 }
-void draw()
-{
-  ellipse(50,50,50,50);
+
+void draw(){
+	background(0);
+	ball();
+	xy();
 }
 
+
+void mouseClick() {
+	if (mouseButton == LEFT) {}
+}
